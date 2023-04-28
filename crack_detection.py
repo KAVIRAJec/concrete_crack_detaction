@@ -89,7 +89,6 @@ history = model.fit(
     callbacks=[model_checkpoint, early_stopping]
 )
 
-
 h = pd.DataFrame(history.history)
 h['epoch'] = h.index + 1
 
