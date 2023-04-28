@@ -49,6 +49,7 @@ for images, labels in train.take(1):
     plt.title(classes[labels[i]])
     plt.axis("off")
     
+    
 plt.show()
 tf.keras.backend.clear_session()
 
