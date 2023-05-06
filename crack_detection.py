@@ -17,6 +17,7 @@ batch_size = 64
 photo_height = 227
 photo_width = 227
 
+
 filepath = 'temp_concrete_crack'
 
 train_path = r'{temp_concrete_crack}/data/concrete_images/train'.format(temp_concrete_crack=filepath)
